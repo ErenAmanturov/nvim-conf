@@ -13,12 +13,12 @@ vim.opt.laststatus = 3 -- global statusline
 vim.opt.showmode = false
 
 vim.api.nvim_create_autocmd("FileType", {
-	pattern = "python",
-	callback = function()
-		vim.opt_local.tabstop = 4 -- 4 пробела для табуляции
-		vim.opt_local.shiftwidth = 4 -- 4 пробела для автоотступа
-		vim.opt_local.expandtab = true -- Пробелы вместо табов
-	end,
+  pattern = 'python',
+  callback = function()
+    vim.opt_local.tabstop = 4
+    vim.opt_local.shiftwidth = 4
+    vim.opt_local.expandtab = true
+  end
 })
 
 -- Настройки поиска
