@@ -21,6 +21,7 @@ require("plugins.tools.lualine")
 require("plugins.tools.tree-sitter")
 require("plugins.tools.lazygitconf")
 require("plugins.tools.bufferlineconf")
+require("plugins.tools.multucursor")
 
 -- cmp tools
 require("plugins.tools.cmp")

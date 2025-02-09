@@ -1,5 +1,8 @@
 return {
-  --
+  -- multi cursors
+  { "maarutan/nvim-visual-multi", branch = "main" },
+
+  -- keys find
   { "folke/which-key.nvim", event = "VeryLazy" },
 
   -- bufferline
